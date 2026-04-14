@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 3, 
+	"function_name": "Rastrigin", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSMA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f3_Rastrigin/IOHprofiler_f3_DIM2.dat",
+		"runs": [
+			{"instance": 2, "evals": 1001, "best": {"evals": 907, "y": 0.2118221490905316, "x": [2.426838165031372, -0.8601044826589795]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 886, "y": 1.0539109493745473, "x": [1.4060060716184433, -0.8501230179851781]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 947, "y": 0.3342071454479102, "x": [2.411831267822227, -0.8683119007521216]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 895, "y": 1.1823048778885799, "x": [2.3694286933621234, -0.5001042446871994]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 823, "y": 0.07565755228954157, "x": [2.4182753470480365, -0.8550977296700598]}}
+		]}
+	]
+}

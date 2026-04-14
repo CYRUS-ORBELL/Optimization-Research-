@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 11, 
+	"function_name": "Discus", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSMA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f11_Discus/IOHprofiler_f11_DIM2.dat",
+		"runs": [
+			{"instance": 2, "evals": 1001, "best": {"evals": 972, "y": 3.0253910425695487, "x": [1.9788170152381237, 4.313372482375976]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 988, "y": 0.45357131553661845, "x": [2.370945722600787, 3.15428684503708]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 879, "y": 52.01602064340749, "x": [4.994686920475107, -4.591782147632735]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 812, "y": 49.87143959635284, "x": [4.951508944615909, -4.464247101645476]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 886, "y": 19.038306780742545, "x": [3.9665753827127537, -1.556319279307458]}}
+		]}
+	]
+}

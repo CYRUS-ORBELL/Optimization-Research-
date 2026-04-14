@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 21, 
+	"function_name": "Gallagher101", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSMA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f21_Gallagher101/IOHprofiler_f21_DIM2.dat",
+		"runs": [
+			{"instance": 2, "evals": 1001, "best": {"evals": 935, "y": 0.0009314757786406249, "x": [0.8714598699974909, -1.9808386836872658]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 992, "y": 4.408139523498949e-05, "x": [1.251527624767541, -2.0186415420303576]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 742, "y": 3.0639751689205065e-05, "x": [1.1259423493829357, -1.9918806126602435]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 822, "y": 2.494097351018e-05, "x": [1.0579055283251302, -2.0210578162830517]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 590, "y": 2.6273819092301344e-05, "x": [1.1919149274659784, -2.0015887460405977]}}
+		]}
+	]
+}

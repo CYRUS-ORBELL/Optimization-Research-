@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 1, 
+	"function_name": "Sphere", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f1_Sphere/IOHprofiler_f1_DIM2.dat",
+		"runs": [
+			{"instance": 3, "evals": 1001, "best": {"evals": 804, "y": 0.003994849650593339, "x": [-3.7891027710473884, 0.14068271291557766]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 683, "y": 0.0015934394383836507, "x": [-3.812224152629293, 0.24064772679970914]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 763, "y": 0.0037653747911533366, "x": [-3.8405833510258716, 0.1586361167829659]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 725, "y": 0.0008108254667180216, "x": [-3.8091288639237355, 0.22957644679679162]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 653, "y": 0.0055208635212520485, "x": [-3.7242040061979096, 0.1992228119264723]}}
+		]}
+	]
+}

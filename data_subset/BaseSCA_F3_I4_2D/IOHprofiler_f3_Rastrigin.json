@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 3, 
+	"function_name": "Rastrigin", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f3_Rastrigin/IOHprofiler_f3_DIM2.dat",
+		"runs": [
+			{"instance": 4, "evals": 1001, "best": {"evals": 368, "y": 1.5376097722515192, "x": [3.116359278656279, -1.9626014209490021]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 550, "y": 2.010781544222158, "x": [3.056108033421799, -2.616008287115405]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 733, "y": 2.4510098250113983, "x": [4.0909727414335, -1.9351985230107402]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 364, "y": 0.7659684036679016, "x": [3.0568820934285146, -2.2883478100688173]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 393, "y": 2.059398793608997, "x": [2.12081877012784, -2.600022980988068]}}
+		]}
+	]
+}

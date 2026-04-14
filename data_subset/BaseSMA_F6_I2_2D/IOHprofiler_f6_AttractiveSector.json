@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 6, 
+	"function_name": "AttractiveSector", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSMA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f6_AttractiveSector/IOHprofiler_f6_DIM2.dat",
+		"runs": [
+			{"instance": 2, "evals": 1001, "best": {"evals": 964, "y": 0.03322106411497497, "x": [-0.24865805128235877, 2.002861784215554]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 764, "y": 0.019333167853695734, "x": [-0.26935446128007945, 2.0007369444499314]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 789, "y": 0.007756563205447319, "x": [-0.2746283320033929, 1.960353135503921]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 896, "y": 0.025340143379462488, "x": [-0.23573587717812708, 1.9382316685288166]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 617, "y": 0.043401081056973205, "x": [-0.2240110769418844, 1.9595692027750635]}}
+		]}
+	]
+}

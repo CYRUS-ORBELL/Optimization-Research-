@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 23, 
+	"function_name": "Katsuura", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSMA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 5,
+		"path": "data_f23_Katsuura/IOHprofiler_f23_DIM5.dat",
+		"runs": [
+			{"instance": 4, "evals": 2501, "best": {"evals": 1948, "y": 2.1899599840566424, "x": [5, -5, 3.4420363741096645, -5, 5]}},
+			{"instance": 4, "evals": 2501, "best": {"evals": 2009, "y": 1.6978863752761457, "x": [-5, -4.346295939835791, -3.9675970903975433, -3.1388399444337556, -5]}},
+			{"instance": 4, "evals": 2501, "best": {"evals": 333, "y": 1.752988368371166, "x": [5, -0.6572019720590125, 5, 3.2911892262375244, 5]}},
+			{"instance": 4, "evals": 2501, "best": {"evals": 1635, "y": 1.481033454947102, "x": [4.456146608040584, 5, 3.6728134333908375, 5, 0.32169928281727556]}},
+			{"instance": 4, "evals": 2501, "best": {"evals": 750, "y": 1.8500658182979106, "x": [5, -4.439529141730939, -4.437809454732831, -3.403535997538774, -2.8728874960649273]}}
+		]}
+	]
+}

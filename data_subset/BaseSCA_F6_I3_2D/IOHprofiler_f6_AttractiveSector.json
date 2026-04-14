@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 6, 
+	"function_name": "AttractiveSector", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f6_AttractiveSector/IOHprofiler_f6_DIM2.dat",
+		"runs": [
+			{"instance": 3, "evals": 1001, "best": {"evals": 360, "y": 0.008598569836904118, "x": [-0.16938265606472003, -3.346416997616309]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 682, "y": 0.16908247568799106, "x": [-0.03770990995275336, -3.2774841805109425]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 702, "y": 0.1534124010696536, "x": [-0.013079638099219235, -3.130538110912722]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 555, "y": 0.026746281562072403, "x": [-0.12307495057350248, -3.215076875156599]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 604, "y": 0.09101355908449153, "x": [-0.05257857346817742, -3.1738319911436097]}}
+		]}
+	]
+}

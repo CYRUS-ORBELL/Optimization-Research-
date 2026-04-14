@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 17, 
+	"function_name": "Schaffers10", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSMA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f17_Schaffers10/IOHprofiler_f17_DIM2.dat",
+		"runs": [
+			{"instance": 2, "evals": 1001, "best": {"evals": 867, "y": 0.1600269627059089, "x": [-0.22434179291927767, 1.7329461141077886]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 764, "y": 0.005732428284969564, "x": [-0.19083873846076446, 1.7819241609553946]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 918, "y": 0.03938718153967435, "x": [-0.19878451306570427, 1.775494253866913]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 982, "y": 0.09990902591471565, "x": [-0.0864454119011515, 1.7830245600171775]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 651, "y": 0.13997384369245505, "x": [-0.2955227092761749, 1.7859601192602828]}}
+		]}
+	]
+}

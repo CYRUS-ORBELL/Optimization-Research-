@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 8, 
+	"function_name": "Rosenbrock", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f8_Rosenbrock/IOHprofiler_f8_DIM2.dat",
+		"runs": [
+			{"instance": 4, "evals": 1001, "best": {"evals": 607, "y": 0.07337173367035454, "x": [-0.5360481836888207, -1.187340393236284]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 966, "y": 0.024963437003184857, "x": [-0.4883783653440983, -1.0908295048643515]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 966, "y": 0.008260514299974358, "x": [-0.4151712641800016, -0.9596612424392138]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 261, "y": 0.053689402283872235, "x": [-0.18243030527129234, -0.5005207125632161]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 654, "y": 0.00403623528783017, "x": [-0.3613787399275767, -0.8560523576850609]}}
+		]}
+	]
+}

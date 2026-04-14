@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 22, 
+	"function_name": "Gallagher21", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f22_Gallagher21/IOHprofiler_f22_DIM2.dat",
+		"runs": [
+			{"instance": 4, "evals": 1001, "best": {"evals": 408, "y": 1.0920691719677616e-06, "x": [-3.7488953697590857, 0.6677364999813281]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 310, "y": 0.0010062821794095903, "x": [-4.4149187099647795, 0.46608729927370357]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 704, "y": 0.0008580426172883518, "x": [-3.924467828857315, 0.5977915880455599]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 714, "y": 1.1811228947030745e-06, "x": [-3.8585931328983656, 0.6400162291340064]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 994, "y": 0.006611078085807953, "x": [-4.179553449841843, 0.5690506691516698]}}
+		]}
+	]
+}

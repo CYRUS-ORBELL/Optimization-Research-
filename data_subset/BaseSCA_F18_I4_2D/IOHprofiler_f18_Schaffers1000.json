@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 18, 
+	"function_name": "Schaffers1000", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f18_Schaffers1000/IOHprofiler_f18_DIM2.dat",
+		"runs": [
+			{"instance": 4, "evals": 1001, "best": {"evals": 764, "y": 0.9729678756681948, "x": [-4.41609899587654, 2.1166574191596284]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 352, "y": 0.7665578053670685, "x": [-3.511595736701453, 2.0322964574483473]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 357, "y": 1.0043053960821366, "x": [-4.592781343382951, 2.130827040958285]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 827, "y": 1.6868526831527255, "x": [-3.2326523205337514, 1.9853337404616112]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 217, "y": 0.8322768145437961, "x": [-3.563013255656062, 2.058337496864128]}}
+		]}
+	]
+}

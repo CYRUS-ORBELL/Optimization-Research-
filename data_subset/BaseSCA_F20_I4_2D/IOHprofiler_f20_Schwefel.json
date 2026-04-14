@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 20, 
+	"function_name": "Schwefel", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f20_Schwefel/IOHprofiler_f20_DIM2.dat",
+		"runs": [
+			{"instance": 4, "evals": 1001, "best": {"evals": 989, "y": 0.9665649752895104, "x": [-2.1356712722657125, -2.032794988649214]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 890, "y": 1.2378110259431538, "x": [-1.016766130184961, -2.352094202653897]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 866, "y": 1.6189889866605365, "x": [1.3657942530892306, -2.9256989935607915]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 210, "y": 0.6414905303943089, "x": [-1.9398170863564241, -2.1473145756970853]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 745, "y": 1.4398388191938472, "x": [1.6126005915969905, -1.8953562847714236]}}
+		]}
+	]
+}

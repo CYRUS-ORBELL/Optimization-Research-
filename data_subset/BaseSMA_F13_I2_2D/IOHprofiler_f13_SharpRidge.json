@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 13, 
+	"function_name": "SharpRidge", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSMA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f13_SharpRidge/IOHprofiler_f13_DIM2.dat",
+		"runs": [
+			{"instance": 2, "evals": 1001, "best": {"evals": 773, "y": 1.4060197657780358, "x": [2.6662441092763665, 3.190260498641222]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 767, "y": 0.2946902878432399, "x": [2.4490353293271747, 2.9583835204237032]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 841, "y": 0.07067280310617177, "x": [2.6565011566258527, 3.1926001553959895]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 684, "y": 0.410932450128082, "x": [2.476125277760331, 2.985743816751174]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 108, "y": 1.6126791680707568, "x": [2.887592644347072, 3.4445796431586873]}}
+		]}
+	]
+}

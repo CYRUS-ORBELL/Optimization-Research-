@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 16, 
+	"function_name": "Weierstrass", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 5,
+		"path": "data_f16_Weierstrass/IOHprofiler_f16_DIM5.dat",
+		"runs": [
+			{"instance": 5, "evals": 2501, "best": {"evals": 2166, "y": 4.922566475589594, "x": [2.8321076845556017, -5, -2.6712280663803383, 0.7262897080347108, -2.343254549847532]}},
+			{"instance": 5, "evals": 2501, "best": {"evals": 1672, "y": 7.926339553007512, "x": [-4.058709989757025, -2.9041728148500736, -2.7903158283889713, -5, -1.4664291632693591]}},
+			{"instance": 5, "evals": 2501, "best": {"evals": 1630, "y": 4.463744497613601, "x": [-5, 5, 3.8608261109419004, -3.3671611754653656, 3.2652799795790903]}},
+			{"instance": 5, "evals": 2501, "best": {"evals": 2177, "y": 9.37613223385527, "x": [5, 5, -1.1827501451693376, -5, 5]}},
+			{"instance": 5, "evals": 2501, "best": {"evals": 1279, "y": 3.8347901938229576, "x": [-4.361113687933546, 1.0361678538085186, 5, 3.0368068787257405, 5]}}
+		]}
+	]
+}

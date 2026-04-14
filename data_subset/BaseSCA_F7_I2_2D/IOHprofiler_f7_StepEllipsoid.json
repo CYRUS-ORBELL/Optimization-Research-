@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 7, 
+	"function_name": "StepEllipsoid", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f7_StepEllipsoid/IOHprofiler_f7_DIM2.dat",
+		"runs": [
+			{"instance": 2, "evals": 1001, "best": {"evals": 552, "y": 0.015344379696764596, "x": [1.8137682964580568, 1.5098539620252498]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 614, "y": 0.09716390507580881, "x": [1.7976859569879815, 1.355413527125748]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 369, "y": 0.09716390507580881, "x": [1.7480576607673801, 1.5508806133067001]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 36, "y": 0.09590237310477873, "x": [1.914775109473302, 1.5047685821373955]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 375, "y": 0.034524854317720344, "x": [1.692943340781833, 1.4242889827686458]}}
+		]}
+	]
+}

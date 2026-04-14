@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 9, 
+	"function_name": "RosenbrockRotated", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f9_RosenbrockRotated/IOHprofiler_f9_DIM2.dat",
+		"runs": [
+			{"instance": 1, "evals": 1001, "best": {"evals": 669, "y": 0.016222246808192106, "x": [0.003532930933789636, 0.8014549937034612]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 863, "y": 0.004753822985893664, "x": [-0.017300132155449267, 0.7601038884125446]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 822, "y": 0.0005294940312919839, "x": [-0.04046903098224852, 0.667429522012408]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 652, "y": 0.08899668799329051, "x": [-0.006712818673928643, 0.8282450963958409]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 815, "y": 0.001736847480895592, "x": [-0.004529400091933408, 0.7903858170850566]}}
+		]}
+	]
+}

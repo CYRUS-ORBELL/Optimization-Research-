@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 10, 
+	"function_name": "EllipsoidRotated", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 5,
+		"path": "data_f10_EllipsoidRotated/IOHprofiler_f10_DIM5.dat",
+		"runs": [
+			{"instance": 4, "evals": 2501, "best": {"evals": 1092, "y": 5009.227466738983, "x": [-1.4715197763945347, -1.7924332527626972, -0.3146948269659813, 5, 1.8165790551176486]}},
+			{"instance": 4, "evals": 2501, "best": {"evals": 954, "y": 11330.700797300935, "x": [5, 2.1751307999764857, 5, 5, 5]}},
+			{"instance": 4, "evals": 2501, "best": {"evals": 1780, "y": 14355.6958692491, "x": [5, 1.2994552031136888, 5, 5, 5]}},
+			{"instance": 4, "evals": 2501, "best": {"evals": 2070, "y": 10531.650800232263, "x": [-4.88029398434635, -1.357479547112527, -1.9461943202841712, 2.748663914519983, 5]}},
+			{"instance": 4, "evals": 2501, "best": {"evals": 1457, "y": 2444.197591315238, "x": [4.079074436530937, 0.11176536714155505, 4.3611734739028085, 5, 4.950164759498104]}}
+		]}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 12, 
+	"function_name": "BentCigar", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f12_BentCigar/IOHprofiler_f12_DIM2.dat",
+		"runs": [
+			{"instance": 1, "evals": 1001, "best": {"evals": 285, "y": 16.96605933272307, "x": [-5, 3.9683230668067746]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 813, "y": 0.9230050617025705, "x": [-1.3948267996322619, 3.989482525321917]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 984, "y": 26.31782547952708, "x": [-5, 3.9636478232716073]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 766, "y": 18.74770661349583, "x": [-5, 3.966023850378072]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 793, "y": 29.536613440370793, "x": [4.505248444157001, 4.017385509659928]}}
+		]}
+	]
+}

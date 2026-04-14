@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 14, 
+	"function_name": "DifferentPowers", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSMA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f14_DifferentPowers/IOHprofiler_f14_DIM2.dat",
+		"runs": [
+			{"instance": 4, "evals": 1001, "best": {"evals": 741, "y": 0.01114912823032696, "x": [3.942969483355055, -1.0844665602119656]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 846, "y": 0.04182323671201271, "x": [3.9608453693953543, -1.2609297147670602]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 861, "y": 0.00015551028973917946, "x": [3.954587055861933, -1.084043530002289]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 389, "y": 0.004131470953692266, "x": [3.9547606873114796, -1.0698574100861546]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 446, "y": 0.01692289059844686, "x": [3.8848506699869128, -0.8923250363244204]}}
+		]}
+	]
+}

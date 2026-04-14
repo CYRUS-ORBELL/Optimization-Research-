@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 10, 
+	"function_name": "EllipsoidRotated", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSMA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f10_EllipsoidRotated/IOHprofiler_f10_DIM2.dat",
+		"runs": [
+			{"instance": 1, "evals": 1001, "best": {"evals": 646, "y": 17.009959131294124, "x": [-5, -0.8014586060445298]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 769, "y": 5.1245419941676325, "x": [-3.9790184882044852, -1.0197934260647274]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 332, "y": 0.4682721783368261, "x": [-1.8906047328326474, -1.4717473738080271]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 870, "y": 2.058628363519875, "x": [-0.488496607933384, -1.775745424980352]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 758, "y": 10.269105676908335, "x": [-4.900020776109899, -0.8206810775242374]}}
+		]}
+	]
+}

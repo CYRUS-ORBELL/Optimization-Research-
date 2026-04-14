@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 19, 
+	"function_name": "GriewankRosenbrock", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f19_GriewankRosenbrock/IOHprofiler_f19_DIM2.dat",
+		"runs": [
+			{"instance": 4, "evals": 1001, "best": {"evals": 121, "y": 0.08701125108190766, "x": [0.810188902373723, -0.7878861686024135]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 869, "y": 0.04968892393764435, "x": [1.635270109480053, 1.8350517769736068]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 780, "y": 0.02790003037047306, "x": [0.38544955329976355, 1.3479153937355228]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 302, "y": 0.030224481279200077, "x": [0.020414830576145668, -0.22296637508481293]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 604, "y": 0.0011828936727944495, "x": [0.47779689397129366, -0.4810720637550286]}}
+		]}
+	]
+}

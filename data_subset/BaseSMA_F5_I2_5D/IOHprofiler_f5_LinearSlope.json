@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 5, 
+	"function_name": "LinearSlope", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSMA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 5,
+		"path": "data_f5_LinearSlope/IOHprofiler_f5_DIM5.dat",
+		"runs": [
+			{"instance": 2, "evals": 2501, "best": {"evals": 174, "y": 0, "x": [5, -5, -5, 5, -5]}},
+			{"instance": 2, "evals": 2501, "best": {"evals": 116, "y": 0, "x": [5, -5, -5, 5, -5]}},
+			{"instance": 2, "evals": 2501, "best": {"evals": 179, "y": 0, "x": [5, -5, -5, 5, -5]}},
+			{"instance": 2, "evals": 2501, "best": {"evals": 109, "y": 0, "x": [5, -5, -5, 5, -5]}},
+			{"instance": 2, "evals": 2501, "best": {"evals": 171, "y": 0, "x": [5, -5, -5, 5, -5]}}
+		]}
+	]
+}

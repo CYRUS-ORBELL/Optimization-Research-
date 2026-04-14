@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 13, 
+	"function_name": "SharpRidge", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f13_SharpRidge/IOHprofiler_f13_DIM2.dat",
+		"runs": [
+			{"instance": 3, "evals": 1001, "best": {"evals": 627, "y": 0.11189537585474411, "x": [-3.571355751330799, -3.943078307537346]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 491, "y": 1.6757829715884642, "x": [-4.241028918470376, -4.1774649125022485]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 945, "y": 7.32363131109131, "x": [-4.460412941253342, -4.231497608531774]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 861, "y": 1.7353234690865933, "x": [-4.335889267258637, -4.212357940777223]}},
+			{"instance": 3, "evals": 1001, "best": {"evals": 78, "y": 7.21618673228045, "x": [-3.753833030630462, -3.9725979225176484]}}
+		]}
+	]
+}

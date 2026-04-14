@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 14, 
+	"function_name": "DifferentPowers", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f14_DifferentPowers/IOHprofiler_f14_DIM2.dat",
+		"runs": [
+			{"instance": 5, "evals": 1001, "best": {"evals": 784, "y": 0.05113470805714399, "x": [1.789703747327412, 2.816124126705748]}},
+			{"instance": 5, "evals": 1001, "best": {"evals": 904, "y": 0.05579678004770576, "x": [2.0859086753758604, 2.9069394409324514]}},
+			{"instance": 5, "evals": 1001, "best": {"evals": 997, "y": 0.023424736714116042, "x": [1.9429201979505732, 2.943800008608222]}},
+			{"instance": 5, "evals": 1001, "best": {"evals": 872, "y": 0.005811279094097805, "x": [2.0929543390721213, 2.962794329313301]}},
+			{"instance": 5, "evals": 1001, "best": {"evals": 879, "y": 0.06929640754278768, "x": [2.251966467611119, 3.0804394859323034]}}
+		]}
+	]
+}

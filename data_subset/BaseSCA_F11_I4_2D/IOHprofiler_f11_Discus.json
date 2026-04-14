@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 11, 
+	"function_name": "Discus", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f11_Discus/IOHprofiler_f11_DIM2.dat",
+		"runs": [
+			{"instance": 4, "evals": 1001, "best": {"evals": 433, "y": 18.198908537785442, "x": [0.6091842318625065, 5]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 522, "y": 195.5880474792883, "x": [-0.9358655362488149, 2.5964579904787364]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 462, "y": 14.63955234363708, "x": [-0.3814997065430388, 3.438187097560599]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 69, "y": 1.2561589178100132, "x": [-0.7827855913607831, 2.8134901932044283]}},
+			{"instance": 4, "evals": 1001, "best": {"evals": 154, "y": 5.449523853434352, "x": [0.6027244041474348, 5]}}
+		]}
+	]
+}

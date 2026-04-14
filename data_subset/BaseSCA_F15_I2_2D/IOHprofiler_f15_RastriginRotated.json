@@ -1,0 +1,20 @@
+{
+	"version": "0.3.14", 
+	"suite": "unknown_suite", 
+	"function_id": 15, 
+	"function_name": "RastriginRotated", 
+	"maximization": false, 
+	"algorithm": {"name": "BaseSCA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f15_RastriginRotated/IOHprofiler_f15_DIM2.dat",
+		"runs": [
+			{"instance": 2, "evals": 1001, "best": {"evals": 874, "y": 5.189661842306967, "x": [1.014572133021306, -3.5048506428008097]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 391, "y": 0.08267478879812605, "x": [-0.8290306571307307, -2.501876162504214]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 976, "y": 4.5188142158192255, "x": [0.05105290080613922, -2.7618618010491924]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 305, "y": 5.115811455725244, "x": [-1.6823230904331181, -2.618649842471617]}},
+			{"instance": 2, "evals": 1001, "best": {"evals": 113, "y": 0.5820801160889056, "x": [-0.8928566388389872, -2.486280565117366]}}
+		]}
+	]
+}
