@@ -10,14 +10,15 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # ── Settings ──────────────────────────────────────────────
-OUTPUT_DIR = 'dataset'
+
 N_PARTICLES = 20
 N_ITERATIONS = 100
 K_CLUSTERS = 5
-BBOB_FUNCTIONS = range(1,25)     # 5 BBOB functions
-N_RUNS = 30                              # 30 runs per combo
-DIMENSION = 5
+BBOB_FUNCTIONS = range(1,25)    
+N_RUNS = 30                              
+DIMENSION = 30
 BOUNDS_LOW, BOUNDS_HIGH = -5.0, 5.0
+OUTPUT_DIR = f"dataset_{DIMENSION}_unimodal"
 # ──────────────────────────────────────────────────────────
 
 def get_fingerprint(trajectory):
